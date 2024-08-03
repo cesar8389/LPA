@@ -19,6 +19,7 @@ int main ()
   printf("O valor de pi com apenas duas casas decimais: %.2f\n", 3.141592653);
   printf("Um unico caractere: %c\n", 'c');
   printf("Uma sequencia de caracteres: %s\n", "Eu amo programar");
+  
  /*
  Sequencias de escape
  \a - Bip, alarme de sistema
@@ -37,6 +38,10 @@ int main ()
  %% - Caractere %
  */
  
+ int ano = 0;
+ printf("Digite o ano em que voce nasceu: \n");
+ scanf("%d", &ano);
+ printf("\nEntendi, voce nasceu em %d\n", ano);
 
  
  system("PAUSE");
